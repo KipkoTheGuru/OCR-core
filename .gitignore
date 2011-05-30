@@ -10,3 +10,4 @@ temp/
 *.jar/
 *.save
 *.orig
+*.class
