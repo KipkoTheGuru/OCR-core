@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.sourceforge.javaocr</groupId>
-    <artifactId>javaocr-parent</artifactId>
+    <artifactId>pom-parent</artifactId>
     <packaging>pom</packaging>
     <name>Java OCR Parent project</name>
     <version>1.102-SNAPSHOT</version>
@@ -12,12 +12,6 @@
         <connection>scm:svn:https://javaocr.svn.sourceforge.net/svnroot/javaocr</connection>
         <developerConnection>scm:svn:https://javaocr.svn.sourceforge.net/svnroot/javaocr</developerConnection>
     </scm>
-    <modules>
-        <module>core</module>
-        <module>plugins</module>
-        <module>demos</module>
-        <module>tools</module>
-    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -77,7 +71,6 @@
     </build>
 
     <dependencies>
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
